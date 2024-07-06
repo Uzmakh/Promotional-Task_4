@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxing;
+}
+body {
+  background: #ffffff;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1.3;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-top: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+  padding: 10px 20px;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav ul li {
+  list-style: none;
+}
+
+/* Hero Section */
+.hero img {
+  width: 100%;
+}
+.hero-overall {
+  /* height: 100vh; */
+  position: relative;
+}
+.overlap-text {
+  width: 25%;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  background: #ffffff;
+  border-radius: 0 60px 60px 0;
+  padding: 40px 60px;
+}
+
+/* Future Section */
+.future {
+  background: #fff;
+}
+.future-content {
+  /* background: #f4f0f0; */
+  margin: 100px 60px;
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+}
+.images {
+  display: flex;
+  align-items: center;
+}
+.images img {
+  width: 100%;
+  /* object-fit: cover;
+	object-position: center; */
+}
+.future-content .text {
+  background: #f4f0f0;
+  border-radius: 0 60px 60px 0px;
+  padding: 87px 30px 80px 100px;
+}
+
+/* Feature Section */
+.feature-section {
+  text-align: center;
+}
+.feature-header {
+  width: 60%;
+  min-width: 350px;
+  margin: 0 auto;
+}
+.features {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.feature {
+  background: #d9f1d9;
+  flex-basis: 20%;
+  text-align: left;
+  border-radius: 30px;
+  padding: 30px 22px 30px;
+  margin-top: 20px;
+  line-height: 2;
+}
+.feature i {
+  font-size: 22px;
+}
+@media (max-width: 850px) {
+  .future-content .images {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .overlap-text {
+    width: 20%;
+    opacity: 0.5;
+    top: 10%;
+  }
+
+  .hero h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+    color: #000;
+  }
+}
+@media (max-width: 650px) {
+  .hero-overall {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-overall {
+    position: static;
+  }
+
+  .overlap-text {
+    width: 100%;
+    max-width: 400px;
+    border-radius: unset;
+    position: absolute;
+    top: 60%;
+    opacity: 1;
+  }
+  .future-content {
+    margin-top: 160px;
+    flex-direction: column;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+  .feature {
+    text-align: center;
+  }
+}
