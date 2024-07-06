@@ -58,9 +58,8 @@ nav ul li {
   background: #fff;
 }
 .future-content {
-  /* background: #f4f0f0; */
   margin: 100px 60px;
-  border-radius: 60px;
+
   display: flex;
   align-items: center;
 }
@@ -110,6 +109,9 @@ nav ul li {
 @media (max-width: 850px) {
   .future-content .images {
     display: none;
+  }
+  .future-content .text {
+    border-radius: 60px;
   }
 }
 
@@ -170,16 +172,13 @@ nav ul li {
   .hero .overlap-text {
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 50%;
+    padding-top: 30px;
   }
-  .feature h2 {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #000;
+  .future-content .images {
+    display: block;
   }
-
-  .feature p {
-    font-size: 0.8rem;
-    color: #000;
+  .future-content .text {
+    display: none;
   }
 }
