@@ -160,3 +160,26 @@ nav ul li {
     text-align: center;
   }
 }
+@media (max-width: 400px) {
+  .hero img {
+    width: 100%;
+  }
+  .hero-overall {
+    position: static;
+  }
+  .hero .overlap-text {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+  }
+  .feature h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .feature p {
+    font-size: 0.8rem;
+    color: #000;
+  }
+}
