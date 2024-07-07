@@ -170,9 +170,7 @@ nav ul li {
   body {
       overflow-x: hidden;
     }
-         .hero img {
-           width: 100%;
-         }
+        
   .hero .overlap-text {
     top: 60%;
     max-width: 400px;
@@ -189,13 +187,16 @@ nav ul li {
     margin-top: -30px;
   }
 }
+@media (max-width: 480px){
+  body {
+      overflow-x: hidden;
+    }
+}
 @media (max-width: 400px) {
   body{
     overflow-x: hidden;
   }
-  .hero img {
-    width: 100%;
-  }
+  
   .hero-overall {
     position: static;
   }
