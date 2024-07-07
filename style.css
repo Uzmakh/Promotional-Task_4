@@ -143,11 +143,12 @@ nav ul li {
 
   .overlap-text {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     border-radius: unset;
     position: absolute;
-    top: 60%;
+    top: 70%;
     opacity: 1;
+    padding: 0 20px;
   }
   .future-content {
     margin-top: 160px;
@@ -155,6 +156,7 @@ nav ul li {
   }
   .future-content .text {
     border-radius: 60px;
+    padding: 60px;
   }
 
   .features {
@@ -166,10 +168,11 @@ nav ul li {
 }
 @media (max-width: 510px) {
   .hero .overlap-text {
-    top: 50%;
+    top: 60%;
+    max-width: 400px;
   }
   .future-content .text {
-    padding: 40px;
+    padding: 80px;
   }
   h2 {
     font-size: 1.5rem;
@@ -184,9 +187,13 @@ nav ul li {
   }
   .hero .overlap-text {
     width: 100%;
-    position: absolute;
+    max-width: 320px;
+    /* position: absolute; */
     top: 50%;
-    padding-top: 30px;
+    padding: 20px;
+  }
+  .hero .overlap-text p {
+    max-width: 300px;
   }
   .future-content .images {
     display: block;
