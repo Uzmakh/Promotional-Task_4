@@ -170,9 +170,13 @@ nav ul li {
   body {
       overflow-x: hidden;
     }
+         .hero img {
+           width: 100%;
+         }
   .hero .overlap-text {
     top: 60%;
     max-width: 400px;
+    padding-top: 20px;
   }
   .future-content .text {
     margin: 20px 0;
