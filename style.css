@@ -172,13 +172,20 @@ nav ul li {
     max-width: 400px;
   }
   .future-content .text {
-    padding: 80px;
+    margin: 20px 0;
+    padding: 40px;
   }
   h2 {
     font-size: 1.5rem;
   }
+  .feature-section{
+    margin-top: -30px;
+  }
 }
 @media (max-width: 400px) {
+  body{
+    overflow-x: hidden;
+  }
   .hero img {
     width: 100%;
   }
