@@ -172,7 +172,7 @@ nav ul li {
     }
         
   .hero .overlap-text {
-    top: 60%;
+    top: 40%;
     max-width: 400px;
     padding-top: 20px;
   }
@@ -187,10 +187,21 @@ nav ul li {
     margin-top: -30px;
   }
 }
-@media (max-width: 480px){
+@media (max-width: 450px){
   body {
       overflow-x: hidden;
     }
+         .hero-overall {
+           position: static;
+         }
+    
+         .hero .overlap-text {
+           width: 100%;
+           max-width: 320px;
+           position: absolute;
+           top: 0%;
+           padding:  0 20px;
+         }
 }
 @media (max-width: 400px) {
   body{
