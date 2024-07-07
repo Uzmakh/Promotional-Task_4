@@ -145,7 +145,7 @@ nav ul li {
     width: 100%;
     max-width: 500px;
     border-radius: unset;
-    position: absolute;
+
     top: 70%;
     opacity: 1;
     padding: 0 20px;
@@ -168,11 +168,11 @@ nav ul li {
 }
 @media (max-width: 510px) {
   body {
-      overflow-x: hidden;
-    }
-        
+    overflow-x: hidden;
+  }
+
   .hero .overlap-text {
-    top: 40%;
+    top: 60%;
     max-width: 400px;
     padding-top: 20px;
   }
@@ -183,38 +183,38 @@ nav ul li {
   h2 {
     font-size: 1.5rem;
   }
-  .feature-section{
+  .feature-section {
     margin-top: -30px;
   }
 }
-@media (max-width: 450px){
+@media (max-width: 450px) {
   body {
-      overflow-x: hidden;
-    }
-         .hero-overall {
-           position: static;
-         }
-    
-         .hero .overlap-text {
-           width: 100%;
-           max-width: 320px;
-           position: absolute;
-           top: 0%;
-           padding:  0 20px;
-         }
-}
-@media (max-width: 400px) {
-  body{
     overflow-x: hidden;
   }
-  
-  .hero-overall {
-    position: static;
-  }
-  .hero .overlap-text {
+  .hero img{
     width: 100%;
+  }
+
+  .hero .overlap-text {
     max-width: 320px;
-    /* position: absolute; */
+
+    top: 60%;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+     .hero img {
+       width: 100%;
+     }
+
+ 
+  .hero .overlap-text {
+  
+    max-width: 320px;
+  
     top: 50%;
     padding: 20px;
   }
