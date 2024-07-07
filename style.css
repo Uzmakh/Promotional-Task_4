@@ -167,6 +167,9 @@ nav ul li {
   }
 }
 @media (max-width: 510px) {
+  body {
+      overflow-x: hidden;
+    }
   .hero .overlap-text {
     top: 60%;
     max-width: 400px;
