@@ -151,11 +151,7 @@ nav ul li {
 }
 
 @media (max-width: 650px) {
-  /* .hero-overall {
-    position: static;
-  } */
-
-  .overlap-text {
+   .overlap-text {
     width: 100%;
     max-width: 600px;
     border-radius: unset;
@@ -181,20 +177,10 @@ nav ul li {
   .feature {
     text-align: center;
   }
+}
 
-  /* @media(max-width: 635px) {
-    .hero .overlap-text {
-      top: 75%;
-      max-width: 500px;
-      padding-top: 20px;
-    }
-  } */
-
-  @media (max-width: 590px) {
-    /* body {
-      overflow-x: hidden;
-    } */
-
+  @media (max-width: 590px)
+   {
     .hero .overlap-text {
       top: 100%;
       max-width: 500px;
