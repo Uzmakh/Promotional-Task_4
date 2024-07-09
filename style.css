@@ -151,15 +151,15 @@ nav ul li {
 }
 
 @media (max-width: 650px) {
-  .hero-overall {
+  /* .hero-overall {
     position: static;
-  }
+  } */
 
   .overlap-text {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     border-radius: unset;
-    top: 75%;
+    top: 100%;
     opacity: 1;
     padding: 40px 20px;
   }
@@ -182,24 +182,24 @@ nav ul li {
     text-align: center;
   }
 
-  @media(max-width: 635px) {
+  /* @media(max-width: 635px) {
     .hero .overlap-text {
       top: 75%;
       max-width: 500px;
       padding-top: 20px;
     }
-  }
+  } */
 
-  @media (max-width: 580px) {
-    body {
+  @media (max-width: 590px) {
+    /* body {
       overflow-x: hidden;
-    }
+    } */
 
     .hero .overlap-text {
-      top: 65%;
+      top: 100%;
       max-width: 500px;
-      padding-top: 20px;
-      margin-bottom: 0px;
+      padding-top: 40px;
+      /* margin-bottom: 0px; */
     }
 
 
@@ -228,8 +228,8 @@ nav ul li {
 
     .hero .overlap-text {
       max-width: 320px;
-      top: 60%;
-      padding: 30px 20px;
+      top: 100%;
+      padding: 30px;
     }
   }
 
@@ -243,8 +243,8 @@ nav ul li {
     }
 
     .hero .overlap-text {
-      max-width: 320px;
-      top: 50%;
+      max-width: 350px;
+      top: 100%;
       padding: 40px 20px;
     }
 
